@@ -1,0 +1,24 @@
+Genomic Annotation Shifter (GoShifter)
+Overview
+
+Genomic Annotation Shifter (GoShifter) tests for enrichment between trait-associated SNPs and all types of genomic annotations, e.g. histone modifications, transcription factor binding sites, DNase hypersensitivity sites, gene transcripts etc. The significance of an overlap between trait-associated variants and genomic annotations is inferred through locally shifting annotations within the boundaries of associated loci.
+
+The most powerful feature of GoShifter is its ability to distinguish independent causal signals from colocalizing annotations. In other words, one can test for the significance of an overlap with one type of genomic annotation, stratifying on another, possibly colocalizing annotation. For example, if one observes a significant enrichment with DHS and H3K4me3 mark (both known to colocalize) it is then possible to disentangle this signal in more details by testing for enrichment of DHS stratifying on H3K4me3, and the other way around. This may, for example, unravel that H3K4me3 solely captures the causal signal and observed enrichment in DHS is due to strong correlation between this two annotations.
+
+Finally, GoShifter highlights specific loci where it can most effectively prioritize causal variants.
+
+Here we provide scripts that allow user to:
+
+1) Test for significance of an overlap between trait-associated variants and single annotation.
+2) Test for significance of an overlap between trait-associated variants and two, possibly colocalizing annotations.
+The scripts were written by Gosia Trynka in the lab of Soumya Raychaudhuri at the Division of Genetics, Brigham and Women's Hospital and Harvard Medical School and the Broad Institute.
+
+Links
+This software has been moved to GitHub.
+The scripts were written by Gosia Trynka, in the lab of Soumya Raychaudhuri at the Division of Genetics,Brigham and Women’s Hospital and Harvard Medical School and the Broad Institute.
+
+Reference
+Trynka G, et al., 2015, AJHG Disentangling effects of colocalizing genomic annotations to functionally prioritize non-coding variants within complex trait loci
+
+Questions?
+Please leave a message or issue at our GitHub repository.
